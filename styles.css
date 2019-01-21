@@ -13,10 +13,12 @@ input[type=text] {
     font-family: "SpecialEliteCyr", HelveticaNeueCyr, Arial, sans-serif;
     font-size: 20pt;
     background: #ff5f5f;
+    padding: 5px;
 }
 
 button {
     font-family: "SpecialEliteCyr", HelveticaNeueCyr, Arial, sans-serif;
     font-size: 20pt;
     color: #f00;
+    padding: 5px;
 }
