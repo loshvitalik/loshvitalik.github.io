@@ -1,4 +1,4 @@
-@font-face{
+@font-face {
     font-family: "SpecialEliteCyr";
     src: url('SpecialEliteCyr.ttf');
 }
@@ -6,19 +6,51 @@
 body {
     font-family: "SpecialEliteCyr", HelveticaNeueCyr, Arial, sans-serif;
     font-size: 20pt;
-    background: #bbecff;
+    font-weight: 600;
+    background:
+    repeating-linear-gradient(
+            transparent 0,
+            rgba(0,0,0,.2) 3px,
+            transparent 6px
+    ), #bfe5ff;
+    background-blend-mode: overlay;
+    background-size: cover;
+    margin: 15px;
+    text-align: center;
 }
 
-input[type=text] {
-    font-family: "SpecialEliteCyr", HelveticaNeueCyr, Arial, sans-serif;
-    font-size: 20pt;
-    background: #ff5f5f;
-    padding: 5px;
+.inputContainer {
+    text-align: center;
 }
 
-button {
+#verificationCode {
+    text-align: center;
+}
+
+#verificationCode {
     font-family: "SpecialEliteCyr", HelveticaNeueCyr, Arial, sans-serif;
     font-size: 20pt;
-    color: #f00;
+    text-align: left;
+    background: #ffecde;
+    margin: 10px;
     padding: 5px;
+    width: 400px;
+    max-width: 100%;
+    height: 30px;
+    border-radius: 30px;
+    border: 2px solid #ff9a45;
+}
+
+#submitButton {
+    font-family: "SpecialEliteCyr", HelveticaNeueCyr, Arial, sans-serif;
+    font-size: 20pt;
+    font-weight: 600;
+    background: linear-gradient(rgba(255,255,255,1) 0%, rgba(230,230,230,1) 49%, rgba(215,215,215,1) 50%, rgba(200,200,200,1) 100%);
+    border: none;
+    width: 250px;
+    max-width: 100%;
+    color: #e44;
+    padding: 10px 15px;
+    height: 50px;
+    border-radius: 50px;
 }
