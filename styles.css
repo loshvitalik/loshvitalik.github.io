@@ -5,5 +5,18 @@
 
 body {
     font-family: "SpecialEliteCyr", HelveticaNeueCyr, Arial, sans-serif;
+    font-size: 20pt;
     background: #bbecff;
+}
+
+input[type=text] {
+    font-family: "SpecialEliteCyr", HelveticaNeueCyr, Arial, sans-serif;
+    font-size: 20pt;
+    background: #ff5f5f;
+}
+
+button {
+    font-family: "SpecialEliteCyr", HelveticaNeueCyr, Arial, sans-serif;
+    font-size: 20pt;
+    color: #f00;
 }
