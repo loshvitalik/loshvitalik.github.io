@@ -1,0 +1,9 @@
+@font-face{
+    font-family: "SpecialEliteCyr";
+    src: url('SpecialEliteCyr.ttf');
+}
+
+body {
+    font-family: "SpecialEliteCyr", HelveticaNeueCyr, Arial, sans-serif;
+    background: #bbecff;
+}
