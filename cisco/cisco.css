@@ -1,0 +1,73 @@
+body {
+    font: 16px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: justify;
+    line-height: 1.5rem;
+    color: #333;
+    background: repeating-linear-gradient(
+            transparent 0,
+            rgba(0, 0, 0, 0.1) 3px,
+            transparent 6px
+    ), #fff1d0;
+    background-blend-mode: overlay;
+    background-size: cover;
+    margin: 20px 50px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 20px 0 5px 0;
+    font-weight: normal;
+}
+
+h1 {
+    font-size: 1.5rem;
+}
+
+h2 {
+    font-size: 1.4rem;
+}
+
+h3 {
+    font-size: 1.3rem;
+}
+
+h4 {
+    font-size: 1.2rem;
+}
+
+h5 {
+    font-size: 1.1rem;
+}
+
+p {
+    text-indent: 1.25rem;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+code {
+    font-family: Consolas, monospace;
+}
+
+.network {
+    color: red;
+}
+
+.subnet {
+    color: blue;
+}
+
+.host {
+    color: #00e700;
+}
+
+@media screen and (max-width: 767px) {
+    body {
+        font-size: 14px;
+        margin: 10px;
+    }
+}
