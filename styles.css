@@ -11,7 +11,7 @@ body {
             transparent 0,
             rgba(0, 0, 0, 0.1) 3px,
             transparent 6px
-    ), #ffd689;
+    ), #fff1d0;
     background-blend-mode: overlay;
     background-size: cover;
     margin: 100px 15px;
