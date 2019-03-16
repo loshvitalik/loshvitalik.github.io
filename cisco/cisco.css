@@ -5,7 +5,7 @@ body {
     color: #333;
     background: repeating-linear-gradient(
             transparent 0,
-            rgba(0, 0, 0, 0.1) 3px,
+            rgba(0, 0, 0, 0.05) 3px,
             transparent 6px
     ), #fff1d0;
     background-blend-mode: overlay;
@@ -69,7 +69,7 @@ code {
 }
 
 .host {
-    color: #00e700;
+    color: #00c200;
 }
 
 @media screen and (max-width: 767px) {
