@@ -6,7 +6,7 @@ function checkVerificationCode() {
   let inputText = document.getElementById("verificationCode").value.toLowerCase();
   setTimeout(() => {
     if (inputText.indexOf("ртф") > -1 && inputText.indexOf("чемпион") > -1)
-      window.location.href = 'cisco/ip-hometask';
+      window.location.href = 'pages.html';
     else
       resultMessage.innerText = "Этот код не подходит";
   }, 1000);
