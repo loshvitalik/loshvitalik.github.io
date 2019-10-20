@@ -49,6 +49,17 @@ p {
     text-indent: 1.25rem;
 }
 
+textarea {
+    padding: 0.25rem;
+    margin: 0.25rem;
+    font: 15px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    border: 1px solid #ff9a45;
+}
+
+label {
+    margin: 0.25rem
+}
+
 img {
     display: block;
     max-width: 100%;
@@ -56,8 +67,45 @@ img {
     margin-right: auto;
 }
 
+button {
+    margin: 0.5rem 0.25rem;
+    font-size: 1.05rem;
+    border: none;
+    background: lightgray;
+    padding: 10px 15px;
+    height: 40px;
+    border-radius: 5px;
+}
+
 code {
     font-family: Consolas, monospace;
+}
+
+.input-group {
+    display: flex;
+    flex-wrap: wrap;
+    width: 95%;
+    margin-top: 1rem;
+    justify-content: center;
+}
+
+.input-group label {
+    flex: 22% 0 1;
+}
+
+.input-group textarea {
+    flex: 74% 0 1;
+}
+
+.button-group {
+    display: flex;
+    flex-wrap: wrap;
+    width: 95%;
+    justify-content: space-around;
+}
+
+.button-group > button {
+    flex: 40% 0 1;
 }
 
 .network {
