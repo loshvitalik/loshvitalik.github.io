@@ -90,11 +90,11 @@ code {
 }
 
 .input-group label {
-    flex: 22% 0 1;
+    flex: 25% 0 1;
 }
 
 .input-group textarea {
-    flex: 74% 0 1;
+    flex: 70% 0 1;
 }
 
 .button-group {

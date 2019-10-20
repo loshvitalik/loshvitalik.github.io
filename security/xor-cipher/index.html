@@ -11,18 +11,29 @@
 <h1>Однократное гаммирование</h1>
 <h2>Простое шифрование</h2>
 <div class="input-group">
-    <label for="simple_input">Исходный текст</label><textarea id="simple_input"></textarea>
-    <label for="simple_key">Ключ</label><textarea id="simple_key"></textarea>
-    <label for="simple_ciphertext">Зашифрованный текст</label><textarea id="simple_ciphertext"></textarea>
+    <label for="s-input">Исходный текст</label><textarea id="s-input"></textarea>
+    <label for="s-key">Ключ</label><textarea id="s-key"></textarea>
+    <label for="s-cipher">Зашифрованный текст</label><textarea id="s-cipher"></textarea>
 </div>
 <div class="button-group">
-    <button id="simple_generate">Сгенерировать ключ</button>
-    <button id="simple_getkey">Подобрать ключ</button>
-    <button id="simple_cipher">Зашифровать текст</button>
-    <button id="simple_decipher">Расшифровать текст</button>
+    <button id="s-generate">Сгенерировать ключ</button>
+    <button id="s-getKey">Подобрать ключ</button>
+    <button id="s-encrypt">Зашифровать текст</button>
+    <button id="s-decrypt">Расшифровать текст</button>
 </div>
 <h2>Шифрование с набором равнозначных ключей</h2>
-
+<div class="input-group">
+    <label for="e-input">Исходный текст</label><textarea id="e-input"></textarea>
+    <label for="e-key">Ключ</label><textarea id="e-key"></textarea>
+    <label for="e-cipher">Зашифрованный текст</label><textarea id="e-cipher"></textarea>
+    <label for="e-keySet">Набор ключей</label><textarea id="e-keySet" rows="10"></textarea>
+</div>
+<div class="button-group">
+    <button id="e-generate">Сгенерировать набор</button>
+    <button id="e-save">Сохранить ключи</button>
+    <button id="e-encrypt">Зашифровать текст</button>
+    <button id="e-decrypt">Расшифровать текст</button>
+</div>
 <script type="text/javascript" src="index.js"></script>
 </body>
 </html>
