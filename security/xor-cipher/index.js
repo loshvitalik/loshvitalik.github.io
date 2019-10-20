@@ -43,7 +43,8 @@ function generateKeySet(keyLength) {
   return keySet;
 }
 
-function recoverKey(keys, salt) {
+function recoverKey(keys) {
+  let salt = keys.shift();
   for (let i = 0; i < keys.length; i++) {
     keys[i] = (parseInt('0x' + keys[i], 16) ^ parseInt('0x' + salt, 16)).toString(16);
   }
@@ -126,36 +127,34 @@ function eGenerateClick() {
 
 function eEncryptClick() {
   let codes = document.getElementById('e-input').value.hexEncode();
-  let keys = document.getElementById('e-key').value.split(' ');
+  let key = document.getElementById('e-key').value.split(' ');
   let cipher = document.getElementById('e-cipher');
-  if (keys.length === 1 && keys[0] === '') {
+  if (key.length === 1 && key[0] === '') {
     cipher.value = 'Сначала нужно сгенерировать ключ';
     return;
   }
-  if (keys.length - 1 !== codes.length) {
+  if (key.length - 1 !== codes.length) {
     cipher.value = 'Длины ключа и текста не совпадают';
     return;
   }
-  let salt = keys.shift();
-  keys = recoverKey(keys, salt);
-  cipher.value = encrypt(codes, keys);
+  key = recoverKey(key);
+  cipher.value = encrypt(codes, key);
 }
 
 function eDecryptClick() {
   let codes = document.getElementById('e-cipher').value.split(' ');
-  let keys = document.getElementById('e-key').value.split(' ');
+  let key = document.getElementById('e-key').value.split(' ');
   let text = document.getElementById('e-input');
-  if (keys.length === 1 && keys[0] === '') {
+  if (key.length === 1 && key[0] === '') {
     text.value = 'Введите ключ';
     return;
   }
-  if (keys.length - 1 !== codes.length) {
+  if (key.length - 1 !== codes.length) {
     text.value = 'Длины ключа и шифра не совпадают';
     return;
   }
-  let salt = keys.shift();
-  keys = recoverKey(keys, salt);
-  text.value = encrypt(codes, keys).hexDecode();
+  key = recoverKey(key);
+  text.value = encrypt(codes, key).hexDecode();
 }
 
 function eSaveClick() {
