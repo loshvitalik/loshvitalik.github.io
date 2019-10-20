@@ -34,7 +34,8 @@ function generateKeySet(keyLength) {
     keySet += ('00' + salt).slice(-3) + ' ';
     for (let j = 0; j < currentKeys.length; j++) {
       let isLast = j === currentKeys.length - 1;
-      keySet += (parseInt('0x' + currentKeys[j], 16) ^ parseInt('0x' + salt, 16)).toString(16) + (isLast ? '' : ' ');
+      let number = (parseInt('0x' + currentKeys[j], 16) ^ parseInt('0x' + salt, 16)).toString(16);
+      keySet += ('00' + number).slice(-3) + (isLast ? '' : ' ');
     }
     if (i !== 9)
       keySet += '\n';
@@ -53,7 +54,8 @@ function encrypt(codes, keys) {
   let cipher = '';
   for (let i = 0; i < codes.length; i++) {
     let isLast = i === codes.length - 1;
-    cipher += (parseInt('0x' + codes[i], 16) ^ parseInt('0x' + keys[i], 16)).toString(16) + (isLast ? '' : ' ');
+    let number = (parseInt('0x' + codes[i], 16) ^ parseInt('0x' + keys[i], 16)).toString(16);
+    cipher += ('00' + number).slice(-3) + (isLast ? '' : ' ');
   }
   return cipher;
 }
@@ -117,7 +119,7 @@ function sDecryptClick() {
 function eGenerateClick() {
   let keyLength = document.getElementById('e-input').value.hexEncode().length;
   let keySet = document.getElementById('e-keySet');
-  let key =  document.getElementById('e-key');
+  let key = document.getElementById('e-key');
   keySet.value = generateKeySet(keyLength);
   key.value = keySet.value.split('\n')[Math.floor(Math.random() * 10)];
 }
