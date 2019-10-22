@@ -30,11 +30,11 @@ function generateKeySet(keyLength) {
   let currentKeys = generateKey(keyLength).split(' ');
   let keySet = '';
   for (let i = 0; i < 10; i++) {
-    let salt = (Math.random() * 0xFFF << 0).toString(16);
+    let salt = (Math.random() * 0xFFF << 0).toString(16); 
     keySet += ('00' + salt).slice(-3) + ' ';
     for (let j = 0; j < currentKeys.length; j++) {
       let isLast = j === currentKeys.length - 1;
-      let number = (parseInt('0x' + currentKeys[j], 16) ^ parseInt('0x' + salt, 16)).toString(16);
+      let number = (parseInt(currentKeys[j], 16) ^ parseInt(salt, 16)).toString(16);
       keySet += ('00' + number).slice(-3) + (isLast ? '' : ' ');
     }
     if (i !== 9)
@@ -46,7 +46,7 @@ function generateKeySet(keyLength) {
 function recoverKey(keys) {
   let salt = keys.shift();
   for (let i = 0; i < keys.length; i++) {
-    keys[i] = (parseInt('0x' + keys[i], 16) ^ parseInt('0x' + salt, 16)).toString(16);
+    keys[i] = (parseInt(keys[i], 16) ^ parseInt(salt, 16)).toString(16);
   }
   return keys;
 }
@@ -55,7 +55,7 @@ function encrypt(codes, keys) {
   let cipher = '';
   for (let i = 0; i < codes.length; i++) {
     let isLast = i === codes.length - 1;
-    let number = (parseInt('0x' + codes[i], 16) ^ parseInt('0x' + keys[i], 16)).toString(16);
+    let number = (parseInt(codes[i], 16) ^ parseInt(keys[i], 16)).toString(16);
     cipher += ('00' + number).slice(-3) + (isLast ? '' : ' ');
   }
   return cipher;
