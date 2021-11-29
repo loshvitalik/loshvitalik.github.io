@@ -30,7 +30,7 @@ function generateKeySet(keyLength) {
   let currentKeys = generateKey(keyLength).split(' ');
   let keySet = '';
   for (let i = 0; i < 10; i++) {
-    let salt = (Math.random() * 0xFFF << 0).toString(16); 
+    let salt = (Math.random() * 0xFFF << 0).toString(16);
     keySet += ('00' + salt).slice(-3) + ' ';
     for (let j = 0; j < currentKeys.length; j++) {
       let isLast = j === currentKeys.length - 1;
