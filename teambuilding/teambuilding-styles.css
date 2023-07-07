@@ -134,8 +134,7 @@ h1, h2 {
 .uppercase {
     text-transform: uppercase;
 }
-
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1024px) {
     body {
         background: repeating-linear-gradient(
                 transparent 0,
@@ -143,6 +142,10 @@ h1, h2 {
                 transparent 6px
         ), #eee1ff;
     }
+}
+
+@media screen and (max-width: 767px) {
+
     .invite-main-container {
         width: 85%;
         padding: 1rem 1.5rem;
