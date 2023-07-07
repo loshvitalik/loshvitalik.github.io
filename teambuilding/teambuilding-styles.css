@@ -144,7 +144,7 @@ h1, h2 {
         ), #eee1ff;
     }
     .invite-main-container {
-        width: 90%;
+        width: 85%;
         padding: 1rem 1.5rem;
     }
 
@@ -154,7 +154,7 @@ h1, h2 {
     }
 
     .message {
-        width: 90%;
+        width: 85%;
     }
 
     button {
