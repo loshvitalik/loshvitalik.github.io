@@ -2,7 +2,6 @@ function onButtonClick(button) {
   switch (button) {
     case "Да":
       alert("Отлично, ждём!");
-      window.open("https://t.me/loshvitalik");
       break;
     case "Нет":
       alert("Неправильный ответ");

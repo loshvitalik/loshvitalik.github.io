@@ -139,7 +139,7 @@ h1, h2 {
     body {
         background: repeating-linear-gradient(
                 transparent 0,
-                rgba(0, 0, 0, 0.03) 3px,
+                rgba(0, 0, 0, 0.02) 3px,
                 transparent 6px
         ), #eee1ff;
     }

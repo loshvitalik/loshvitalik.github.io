@@ -5,6 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1a642341-e5eb-4453-bc5a-e0f20849c0c4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teambuilding/invite/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/teambuilding/invite/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teambuilding/invite/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/teambuilding/invite/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teambuilding/s/invite/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/teambuilding/s/invite/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teambuilding/s/invite/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/teambuilding/s/invite/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/teambuilding/teambuilding-styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/teambuilding/teambuilding-styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -145,7 +150,7 @@
       <workItem from="1688312163268" duration="4659000" />
       <workItem from="1688417762593" duration="3167000" />
       <workItem from="1688590899601" duration="4369000" />
-      <workItem from="1688678944735" duration="13576000" />
+      <workItem from="1688678944735" duration="14037000" />
     </task>
     <task id="LOCAL-00001" summary="Schematechnics pages added, css unified">
       <created>1557698299134</created>
@@ -252,7 +257,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688772426747</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Added teambuilding invite">
+      <created>1688772550856</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1688772550856</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
