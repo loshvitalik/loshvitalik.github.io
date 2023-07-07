@@ -137,7 +137,11 @@ h1, h2 {
 
 @media screen and (max-width: 767px) {
     body {
-        background: #eee1ff;
+        background: repeating-linear-gradient(
+                transparent 0,
+                rgba(0, 0, 0, 0.03) 3px,
+                transparent 6px
+        ), #eee1ff;
     }
     .invite-main-container {
         width: 90%;
