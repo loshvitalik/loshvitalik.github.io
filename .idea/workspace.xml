@@ -4,19 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a642341-e5eb-4453-bc5a-e0f20849c0c4" name="Default Changelist" comment="Added teambuilding invite">
-      <change afterPath="$PROJECT_DIR$/teambuilding/SF-UI-Display-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/teambuilding/intro/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/teambuilding/intro/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/teambuilding/invite/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/teambuilding/invite/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/teambuilding/s/intro/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/teambuilding/s/intro/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/teambuilding/s/invite/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/teambuilding/s/invite/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/teambuilding/teambuilding-styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/teambuilding/teambuilding-utils.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="1a642341-e5eb-4453-bc5a-e0f20849c0c4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/teambuilding/teambuilding-styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/teambuilding/teambuilding-styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,7 +145,7 @@
       <workItem from="1688312163268" duration="4659000" />
       <workItem from="1688417762593" duration="3167000" />
       <workItem from="1688590899601" duration="4369000" />
-      <workItem from="1688678944735" duration="12662000" />
+      <workItem from="1688678944735" duration="13100000" />
     </task>
     <task id="LOCAL-00001" summary="Schematechnics pages added, css unified">
       <created>1557698299134</created>
@@ -221,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571738049163</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Added teambuilding invite">
+      <created>1688771631629</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1688771631629</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">

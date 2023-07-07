@@ -136,8 +136,15 @@ h1, h2 {
 }
 
 @media screen and (max-width: 767px) {
+    body {
+        background: repeating-linear-gradient(
+                transparent 0,
+                rgba(0, 0, 0, 0.05) 3px,
+                transparent 6px
+        ), #eee1ff;
+    }
     .invite-main-container {
-        width: 80%;
+        width: 85%;
         padding: 1rem 1.5rem;
     }
 
@@ -147,7 +154,7 @@ h1, h2 {
     }
 
     .message {
-        width: 80%;
+        width: 85%;
     }
 
     button {
