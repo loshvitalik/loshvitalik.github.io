@@ -1,0 +1,156 @@
+@font-face {
+    font-family: "SF UI Display";
+    src: url('SF-UI-Display-Regular.ttf');
+}
+
+html {
+    /*font-family: "Sladkoeshka", "SladkoeshkaRegular", "SF UI Display", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+    font-family: "SF UI Display", -apple-system, BlinkMacSystemFont, Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, "Segoe UI", Arial, sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+body {
+    background: repeating-linear-gradient(
+            transparent 0,
+            rgba(0, 0, 0, 0.15) 3px,
+            transparent 6px
+    ), #eee1ff;
+    background-blend-mode: overlay;
+    background-size: cover;
+}
+#discussion {
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 90%;
+    padding: 0;
+}
+
+#discussion > li {
+    list-style: none;
+}
+
+#message {
+    width: 70%;
+    margin: 0.5rem;
+}
+
+.message {
+    background: #f1eeff;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px 0 rgba(34, 34, 100, 0.2);
+    line-height: 1.4rem;
+    padding: 0.05rem 1rem;
+    margin: 1rem auto;
+    width: 30%;
+    opacity: 0;
+    color: #6326b6;
+    font-size: 1.2rem;
+}
+
+.message-header {
+    font-weight: bolder;
+    font-size: 0.9rem;
+    line-height: 0.8rem;
+    color: #7601da;
+}
+.message-date {
+    color: #aaa;
+    font-size: 0.75em;
+    line-height: 0.75em;
+    text-align: right;
+}
+
+button {
+    font-size: 1rem;
+    height: 40px;
+    padding: 0.5rem 1rem;
+    display: inline-flex;
+    align-items: center;
+    margin: 0.5rem 0.3rem;
+    background: transparent;
+    border-color: rgba(222, 125, 0, 0.5);
+    color: rgb(234, 133, 0);
+    border-style: solid;
+    border-width: 1.5px;
+    border-radius: 10px;
+    font-weight: lighter;
+    cursor: pointer;
+}
+.buttons-container {
+    display: inline-flex;
+    align-items: center;
+}
+
+.button-disabled {
+    border-color: rgba(255, 194, 148, 0.5);
+    color: rgba(255, 194, 148, 0.5);
+    cursor: default;
+}
+
+.invite-main-container {
+    margin: 2rem auto;
+    width: 700px;
+    background: #f1eeff;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px 0 rgba(34, 34, 100, 0.2);
+    padding: 2rem 3rem;
+    color: #6326b6;
+}
+
+.invite-main-container p {
+    line-height: 1.7rem;
+    font-size: 1.2rem;
+}
+
+.invite-main-container ul {
+    padding: 0;
+}
+
+.invite-main-container li {
+    line-height: 2rem;
+    font-size: 1.2rem;
+    list-style: none;
+    padding: 0;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.invite-main-container .buttons-container {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.instagram-link {
+    text-decoration: none;
+}
+
+.invite-main-container button {
+    font-size: 1.2rem;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 767px) {
+    .invite-main-container {
+        width: 80%;
+        padding: 1rem 1.5rem;
+    }
+
+    .invite-main-container li {
+        line-height: 1.7rem;
+        padding: 0.5rem 0;
+    }
+
+    .message {
+        width: 80%;
+    }
+
+    button {
+        padding: 0.5rem 0.75rem;
+    }
+}

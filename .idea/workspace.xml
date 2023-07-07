@@ -1,53 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a642341-e5eb-4453-bc5a-e0f20849c0c4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/security/xor-cipher/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/security/xor-cipher/index.js" afterDir="false" />
+    <list default="true" id="1a642341-e5eb-4453-bc5a-e0f20849c0c4" name="Default Changelist" comment="Added teambuilding invite">
+      <change afterPath="$PROJECT_DIR$/teambuilding/SF-UI-Display-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teambuilding/intro/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teambuilding/intro/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teambuilding/invite/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teambuilding/invite/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teambuilding/s/intro/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teambuilding/s/intro/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teambuilding/s/invite/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teambuilding/s/invite/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teambuilding/teambuilding-styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teambuilding/teambuilding-utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/.tmp/" />
-    <ignored path="$PROJECT_DIR$/temp/" />
-    <ignored path="$PROJECT_DIR$/tmp/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/security/xor-cipher/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/security/xor-cipher/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="5" column="3" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/page.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="96" column="12" selection-start-line="96" selection-start-column="12" selection-end-line="96" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="CSS File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -82,12 +62,16 @@
       </list>
     </option>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
     <option name="y" value="-7" />
     <option name="width" value="1102" />
     <option name="height" value="605" />
   </component>
+  <component name="ProjectId" id="2S1RZv9ubN1MBez6Z8nckHIz6as" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -129,29 +113,32 @@
       </pane>
     </panes>
   </component>
-  <component name="PropertiesComponent">
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;Y:/Documents/WebStormProjects/github-website&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Documents\WebStormProjects\github-website\security\xor-cipher" />
       <recent name="D:\Documents\WebStormProjects\github-website" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="project-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -166,6 +153,10 @@
       <workItem from="1558265863396" duration="139000" />
       <workItem from="1558710913955" duration="101000" />
       <workItem from="1571564357445" duration="23257000" />
+      <workItem from="1688312163268" duration="4659000" />
+      <workItem from="1688417762593" duration="3167000" />
+      <workItem from="1688590899601" duration="4369000" />
+      <workItem from="1688678944735" duration="12662000" />
     </task>
     <task id="LOCAL-00001" summary="Schematechnics pages added, css unified">
       <created>1557698299134</created>
@@ -260,7 +251,7 @@
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Schematechnics pages added, css unified" />
@@ -270,7 +261,8 @@
     <MESSAGE value="Simple and group encoding working, refactor" />
     <MESSAGE value="XOR cipher final version" />
     <MESSAGE value="Code cleanup" />
-    <option name="LAST_COMMIT_MESSAGE" value="Code cleanup" />
+    <MESSAGE value="Added teambuilding invite" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added teambuilding invite" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/schematechnics/labs/index.html">
